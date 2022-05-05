@@ -109,12 +109,12 @@ p{
 .luxbtn{
 	color:  hsl(179, 100%, 13%);
 }
-@media (max-width: 500px){
+@media (max-width: 1000px){
 	main{
 		padding-left: 15%;
 	}
 	.sedans,.suvs,.luxurys{
-		width: 85%;
+		width: 300px;
 		height: 450px;
 	}
 	.sedans{
