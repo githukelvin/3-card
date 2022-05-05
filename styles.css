@@ -26,6 +26,8 @@ main{
 	width: 100%;
 	height: 100vh;
 	background-color: hsl(0, 0%, 95%);
+	margin-left: auto;
+	margin-right: auto;
 
 	}
 .sedans,.suvs,.luxurys{
@@ -107,4 +109,24 @@ p{
 }
 .luxbtn{
 	color:  hsl(179, 100%, 13%);
+}
+@media (max-width: 500px){
+	.sedans,.suvs,.luxurys{
+		width: 85%;
+		height: 450px;
+	}
+	.sedans{
+	border-radius: 10px  10px 0px 0px;
+}
+.luxurys{
+	border-radius: 0px 0px 10px 10px;
+}
+svg{
+	margin-left: 40px;
+	margin-top: 10%;
+	margin-bottom: 20px;
+}
+p{
+	margin-bottom: 50px;
+}
 }
